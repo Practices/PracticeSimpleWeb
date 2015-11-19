@@ -13,6 +13,7 @@ Use by: php, js, css, jade, gulp.
 
 # Installation
 ``` npm install ```
+
 ``` bower install ```
 if bower not installed, run ``` npm install -g bower ```
 
