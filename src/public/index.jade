@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    title Коментарии
+    link(rel="stylesheet", href="css/style.css")
+    script(src="lib/jquery.js")
+    script(src="js/comment.js")
+    
+  body
+      header
+        div.header-bg
+          div.container          
+            p.contact Телефон: (499) 340-94-71
+            p.contact Email: 
+              span.mail info@future-group.ru
+            h1 Комментарии          
+            img.logo(src="img/logo.png")
+
+      div.main  
+        div.container
+          div#comments
+        
+        hr
+        
+        div.container      
+          div.form-comment
+            h2 Оставить коментарий
+            from(action="" method="post")
+              div.field
+                label Ваше Имя
+                input#name(type="text")
+              div.field
+                label Ваш коментарий
+                textarea.main-border#comment
+              button.main-border#submit Отправить
+            
+      footer
+        div.footer-bg
+          div.container          
+            img.flogo(src="img/logo.png")
+            div.contact-footer
+              p.contact Телефон: (499) 340-94-71 
+              p.contact Email:   
+                span.mail info@future-group.ru
+              p.contact Адрес:     
+                span.mail 115088 Москва, ул. 2-я Машиностроения, д. 7 стр. 1
+              p.cite © 2010 - 2014 Future. Все права защищены

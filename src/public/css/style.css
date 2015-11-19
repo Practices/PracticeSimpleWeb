@@ -1,0 +1,153 @@
+body {
+	height: 100%; /* задаем высоту тела документа */
+	background: rgb(238,238,238);
+	margin: 0;
+}
+
+h1
+{
+	font-size:48px;
+	font-weight:lighter;
+	font-family: Microsoft Sans Serif,Regular;
+}
+h3
+{
+	font-size:12px;
+	font-family:Arial,Regular;
+}
+h4 {
+	padding-top:20px;
+	font-size:12px;
+	font-family:Arial,Regular;
+}
+
+/** html .main {
+	height: 100%;
+}*/
+
+/*  Header  */
+
+.header-bg {
+	height: 14em;
+	padding-top: 2em;
+	background: url(../img/head.png) repeat-x;
+}
+
+/*  Footer  */
+
+.footer-bg {
+	background: RGB(249,249,249);
+	height: 8em;
+	padding: 1em 0;
+	margin-top: 1em;
+}
+
+/*  Main  */
+
+.main {
+	background: rgb(238,238,238);
+	min-height: 100%;
+}
+
+.container {
+	margin: 0 10%;
+}
+
+.comment {
+	padding: 1em 0;
+}
+
+.comment .head {
+	/*display: inline;*/
+}
+
+.comment .head .name {
+	font-weight: bold;
+}
+
+.comment .head .time {
+	position: absolute;
+	left: 200px;
+}
+
+.comment .message {
+	margin-top: 10px;
+}
+
+.form-comment {
+	width: 50%;
+}
+
+.field {
+	margin: 5px 0;
+	width: 100%
+}
+
+.field > label {
+}
+
+input#name {
+	margin: 1em 0;
+	padding: 1em;
+	border-width: 0;
+	border-radius: 6px;
+	width: 100%
+}
+
+textarea#comment {
+	margin: 1em 0;
+	padding: 1em;
+  height: 100px;
+	width: 100%;
+	resize: none;
+}
+
+button#submit {
+	padding: 1em 2em;
+}
+
+textarea,
+button
+.main-border {
+	border-width: 3px;
+	border-color: black;
+	border-radius: 6px;
+	background: rgb(238,238,238);
+}
+
+.logo {
+	height:10em;
+	width:10em;
+	position: absolute;
+	top: 2em;
+	right: 10%;
+	/*float: right;*/
+}
+
+.flogo {
+	/* position:absolute;*/
+	/*margin-top:20px;*/
+	height:7em;
+	width:7em;
+	float:left;
+}
+
+div.contact-footer {
+}
+
+p.contact {
+	font-weight: bold;
+}
+
+.mail {
+	text-decoration:underline;
+}
+
+.cite {
+	font-family:Arial;
+	font-style: italic;
+}
+
+hr {
+	width: 80%;
+}
